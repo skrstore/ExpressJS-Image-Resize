@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Express Image Resize</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        padding: 1em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Express Image Resize</h1>
+    <hr />
+    <form action="/image" method="get">
+      <p>Image Name: <input type="text" name="image" required /></p>
+      <p>Image Type: <input type="text" name="format" /></p>
+      <p>Image Width: <input type="number" name="width" /></p>
+      <p>Image Height: <input type="number" name="height" /></p>
+      <p><input type="submit" value="Submit" /></p>
+    </form>
+  </body>
+</html>
